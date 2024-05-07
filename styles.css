@@ -1,0 +1,77 @@
+body {
+    background-image: url(boats_feature1_d.webp);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar{
+    border: 0px;
+    border-radius: 12px;
+}
+.bg-body-tertiary{
+    background-color: black !important;
+}
+
+.textdescription{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: white;
+}
+.textdescription1{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.nav-link:hover {
+    color: gray; /* Cambia el color del texto cuando pasas el cursor sobre el elemento de marca */
+}
+.navbar-toggler:hover {
+    background-color: gray; /* Cambia el color de fondo del botón de toggler cuando pasas el cursor sobre él */
+}
+
+.card {
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    width: 80%; /* Establece el ancho al 80% del ancho de su contenedor padre */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+
+.botonver{
+    min-width: 80%;max-height: 35px;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.price-new {
+    color: green;
+}
+
+.btn-buy {
+    background-color: silver;
+    color: white;
+}
